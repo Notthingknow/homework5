@@ -1,0 +1,145 @@
+<template>
+  <nav>
+    <div id="logo-img">
+      <img src="../../public/logo_with_name.png" alt="BSNova Logo">
+    </div>
+    <div id="menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul>
+      <li>
+        <a>首頁</a>
+      </li>
+      <li>
+        <a>環境分析</a>
+      </li>
+      <li>
+        <a>所有卡組</a>
+      </li>
+      <li>
+        <a>查卡組牌</a>
+      </li>
+      <li>
+        <a class="active">登入註冊</a>
+      </li>
+      <li>
+        <div id="search-icon">
+          <i class="fas fa-search"></i>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="searchbox_web">
+    <form action="" method="GET" name="">
+      <input type="text" name="input_num" placeholder="請輸入卡牌編號  (例如: bs09 x35)" autocomplete="off">
+    </form>
+  </div>
+  <div id="empty-space-bar"></div>
+  <main>
+    <h2 class="section-heading">登入註冊</h2>
+
+    <div class="content clearfix">
+      <div class="main-content build">
+        <!-- Error Message (if any) -->
+
+
+        <!-- Main Part -->
+
+        <form action="" method="post">
+          登入帳戶<br>
+          <input type="text" name="mailuid" class="deck_build_input_name" placeholder="可輸入電郵或用戶名稱"
+                 value="">
+          <br><br>
+
+          用戶密碼<br>
+          <input type="password" name="pwd" class="deck_build_input_name" placeholder="" maxlength="12">
+          <br><br>
+
+          <input type="button" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley';" name="login-submit" id="login-submit" value="登入" class="submit_build">
+        </form>
+
+        <table class="Advance_Search search" style="border: 0px solid black;">
+          <tbody>
+          <tr style="height: 40px;">
+            <td style="border: 0px solid black;">
+              <input type="button" value="註冊 !"
+                     class="input_clear" style="margin-left: -2.5px;">
+               
+              <input type="button" value="忘記密碼"
+                     class="input_clear" style="margin-left: 3px;">
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <br>
+      </div>
+
+
+    </div>
+
+
+  </main>
+  <div id="empty-space-bar"></div> <!--  empty space for better looking  -->
+  <!-- close the DB every time after the page is loaded -->
+  <footer>
+    <div id="left-footer">
+      <h3>其他連結</h3>
+      <p>
+      </p>
+      <ul>
+        <li>
+          <a>首頁</a>
+        </li>
+        <li>
+          <a>網站簡介</a>
+        </li>
+        <li>
+          <a>隱私權政策</a>
+        </li>
+        <li>
+          <a>使用條款</a>
+        </li>
+      </ul>
+      <p></p>
+    </div>
+    <div id="right-footer">
+      <h3>聯絡我們</h3>
+      <div id="social-media-footer">
+        <ul>
+          <li>
+            <a target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer_copyright">All original content on this page is © 2023 battlespiritsnova.com (BSNOVA), and may
+        not be used or reproduced without consent. BSNOVA is a fan content website of Battle Spirits. Battle Spirits
+        images and logos are trademarks of BANDAI CO.,LTD.. All rights reserved. Battle Spirits Nova is not
+        affiliated with BANDAI CO.,LTD.. Sources of card images are from <a
+            style="color: #777;">batspi.com</a>. Ads
+        by Google.<br></p>
+    </div>
+  </footer>
+</template>
+
+<script>
+export default {
+  name: "index"
+}
+</script>
+
+<style scoped>
+
+</style>
